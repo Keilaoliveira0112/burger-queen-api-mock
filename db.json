@@ -2,58 +2,307 @@
   "orders": [
     {
       "id": 1,
+      "table": "001",
       "userName": "Samara",
       "client": "Jude Milhon",
       "products": [
         {
-          "product": {
-            "id": 1,
-            "name": "Biscoitos da sorte dos perdedores",
-            "price": 7,
-            "type": "Café da manhã",
-            "quantity": 2
-          }
+          "id": 1,
+          "name": "Biscoitos da sorte dos perdedores",
+          "price": 7,
+          "type": "Café da manhã",
+          "quantity": 2
         },
         {
-          "product": {
-            "id": 2,
-            "name": "Aquela coisa de cuscuz",
-            "price": 10,
-            "type": "Café da manhã",
-            "quantity": 5
-          }
+          "id": 2,
+          "name": "Aquela coisa de cuscuz",
+          "price": 10,
+          "type": "Café da manhã",
+          "quantity": 5
         }
       ],
-      "status": "Pendente",
-      "dataEntry": "2022-03-05 15:00"
+      "orderTotal": 64,
+      "status": "delivered",
+      "dataEntry": "11/06/2023 09:10:45",
+      "dateProcessed": "11/06/2023 10:00:00"
     },
     {
       "id": 2,
+      "table": "004",
       "userName": "Samara",
       "client": "Katie Bouman",
       "products": [
         {
-          "product": {
-            "id": 1,
-            "name": "Biscoitos da sorte dos perdedores",
-            "price": 7,
-            "type": "Café da manhã",
-            "quantity": 2
-          }
+          "id": 1,
+          "name": "Biscoitos da sorte dos perdedores",
+          "price": 7,
+          "type": "Café da manhã",
+          "quantity": 2
         },
         {
-          "product": {
-            "id": 8,
-            "name": "Água Benta 500ml",
-            "price": 5,
-            "type": "Bebidas",
-            "quantity": 1
-          }
+          "id": 8,
+          "name": "Água Benta 500ml",
+          "price": 5,
+          "type": "Bebidas",
+          "quantity": 1
         }
       ],
+      "orderTotal": 19,
       "status": "delivered",
-      "dataEntry": "2022-03-05 15:00",
-      "dateProcessed": "2022-03-05 16:00"
+      "dataEntry": "11/06/2023 10:20:45",
+      "dateProcessed": "11/06/2023 10:55:46"
+    },
+    {
+      "id": 3,
+      "table": "002",
+      "userName": "Samara",
+      "client": "Celia",
+      "products": [
+        {
+          "id": 4,
+          "name": "Hamburguer dos inocentes",
+          "price": 10,
+          "type": "Hamburguers",
+          "quantity": 2
+        },
+        {
+          "id": 5,
+          "name": "Hamburguer de cérebro humano",
+          "price": 15,
+          "type": "Hamburguers",
+          "quantity": 3
+        },
+        {
+          "id": 6,
+          "name": "Batatinha frita 123",
+          "price": 10,
+          "type": "Acompanhamentos",
+          "quantity": 2
+        },
+        {
+          "id": 10,
+          "name": "Bolsa de sangue gaseificada 500ml",
+          "price": 10,
+          "type": "Bebidas",
+          "quantity": 5
+        }
+      ],
+      "orderTotal": 135,
+      "status": "delivered",
+      "dataEntry": "11/06/2023 16:20:45",
+      "dateProcessed": "11/06/2023 17:20:00"
+    },
+    {
+      "id": 4,
+      "table": "003",
+      "userName": "Samara",
+      "client": "Livia",
+      "products": [
+        {
+          "id": 1,
+          "name": "Biscoitos da sorte dos perdedores",
+          "price": 7,
+          "type": "Café da manhã",
+          "quantity": 2
+        },
+        {
+          "id": 2,
+          "name": "Aquela coisa de cuscuz",
+          "price": 10,
+          "type": "Café da manhã",
+          "quantity": 5
+        },
+        {
+          "id": 3,
+          "name": "Suco de fruta sobrenatural",
+          "price": 7,
+          "type": "Café da manhã",
+          "quantity": 7
+        }
+      ],
+      "orderTotal": 113,
+      "status": "delivered",
+      "dataEntry": "12/03/2023 11:00:00",
+      "dateProcessed": "12/03/2023 11:30:00"
+    },
+    {
+      "id": 5,
+      "table": "001",
+      "userName": "Samara",
+      "client": "Linda",
+      "products": [
+        {     
+          "id": 5,
+          "name": "Hamburguer de cérebro humano",
+          "price": 15,
+          "type": "Hamburguers",
+          "quantity": 3
+        },
+        {
+          "id": 9,
+          "name": "Água Benta 750ml",
+          "price": 7,
+          "type": "Bebidas",
+          "quantity": 2
+        }
+      ],
+      "orderTotal": 59,
+      "status": "delivered",
+      "dataEntry": "12/03/2023 12:00:00",
+      "dateProcessed": "12/03/2023 12:30:00"
+    },
+    {
+      "id": 6,
+      "table": "001",
+      "userName": "Samara",
+      "client": "Luiza",
+      "products": [
+        {
+          "id": 1,
+          "name": "Biscoitos da sorte dos perdedores",
+          "price": 7,
+          "type": "Café da manhã",
+          "quantity": 2
+        },
+        {
+          "id": 2,
+          "name": "Aquela coisa de cuscuz",
+          "price": 10,
+          "type": "Café da manhã",
+          "quantity": 5
+        }
+      ],
+      "orderTotal": 64,
+      "status": "pending",
+      "dataEntry": "13/06/2023 09:31:20"
+    },
+    {
+      "id": 7,
+      "table": "004",
+      "userName": "Samara",
+      "client": "Alana",
+      "products": [
+        {
+          "id": 7,
+          "name": "Anéis de cebola",
+          "price": 10,
+          "type": "Acompanhamentos",
+          "quantity": 3
+        },
+        {
+          "id": 8,
+          "name": "Água Benta 500ml",
+          "price": 5,
+          "type": "Bebidas",
+          "quantity": 1
+        },
+        {
+          "id": 11,
+          "name": "Bolsa de sangue gaseificada 750ml",
+          "price": 10,
+          "type": "Bebidas",
+          "quantity": 2
+        }
+      ],
+      "orderTotal": 55,
+      "status": "pending",
+      "dataEntry": "13/06/2023 12:31:20"
+    },
+    {
+      "id": 8,
+      "table": "003",
+      "userName": "Samara",
+      "client": "Larissa",
+      "products": [
+        {
+          "id": 4,
+          "name": "Hamburguer dos inocentes",
+          "price": 10,
+          "type": "Hamburguers",
+          "quantity": 1
+        },
+        {
+          "id": 7,
+          "name": "Anéis de cebola",
+          "price": 10,
+          "type": "Acompanhamentos",
+          "quantity": 1
+        }
+      ],
+      "orderTotal": 20,
+      "status": "pending",
+      "dataEntry": "13/06/2023 12:31:25"
+    },
+    {
+      "id": 9,
+      "table": "002",
+      "userName": "Samara",
+      "client": "Camila",
+      "products": [
+        {
+          "id": 5,
+          "name": "Hamburguer de cérebro humano",
+          "price": 15,
+          "type": "Hamburguers",
+          "quantity": 2
+        },
+        {
+          "id": 6,
+          "name": "Batatinha frita 123",
+          "price": 10,
+          "type": "Acompanhamentos",
+          "quantity": 2
+        },
+        {
+          "id": 11,
+          "name": "Bolsa de sangue gaseificada 750ml",
+          "price": 10,
+          "type": "Bebidas",
+          "quantity": 2
+        }
+      ],
+      "orderTotal": 70,
+      "status": "pending",
+      "dataEntry": "13/06/2023 12:45:32"
+    },
+    {
+      "id": 10,
+      "table": "005",
+      "userName": "Samara",
+      "client": "Sandra",
+      "products": [
+        {
+          "id": 5,
+          "name": "Hamburguer de cérebro humano",
+          "price": 15,
+          "type": "Hamburguers",
+          "quantity": 1
+        },
+        {
+          "id": 6,
+          "name": "Batatinha frita 123",
+          "price": 10,
+          "type": "Acompanhamentos",
+          "quantity": 1
+        },
+        {
+          "id": 9,
+          "name": "Água Benta 750ml",
+          "price": 7,
+          "type": "Bebidas",
+          "quantity": 1
+        },
+        {
+          "id": 11,
+          "name": "Bolsa de sangue gaseificada 750ml",
+          "price": 10,
+          "type": "Bebidas",
+          "quantity": 1
+        }
+      ],
+      "orderTotal": 42,
+      "status": "pending",
+      "dataEntry": "13/06/2023 12:46:15"
     }
   ],
   "products": [
