@@ -22,9 +22,9 @@
         }
       ],
       "orderTotal": 64,
-      "status": "delivered",
+      "status": "ready",
       "dataEntry": "2023-06-15T19:26:39.739Z",
-      "dateProcessed": "2023-06-15T19:26:39.739Z"
+      "dateProcessed": "2023-06-15T19:27:39.739Z"
     },
     {
       "id": 2,
@@ -48,9 +48,9 @@
         }
       ],
       "orderTotal": 19,
-      "status": "delivered",
-      "dataEntry": "2023-06-15T19:26:39.739Z",
-      "dateProcessed": "2023-06-15T19:26:39.739Z"
+      "status": "ready",
+      "dataEntry": "2023-06-15T19:30:39.739Z",
+      "dateProcessed": "2023-06-15T19:45:39.739Z"
     },
     {
       "id": 3,
@@ -88,9 +88,9 @@
         }
       ],
       "orderTotal": 135,
-      "status": "delivered",
+      "status": "ready",
       "dataEntry": "2023-06-15T19:26:39.739Z",
-      "dateProcessed": "2023-06-15T19:26:39.739Z"
+      "dateProcessed": "2023-06-15T19:47:39.739Z"
     },
     {
       "id": 4,
@@ -121,9 +121,9 @@
         }
       ],
       "orderTotal": 113,
-      "status": "delivered",
+      "status": "ready",
       "dataEntry": "2023-06-13T19:26:39.739Z",
-      "dateProcessed": "2023-06-13T19:26:39.739Z"
+      "dateProcessed": "2023-06-13T19:39:39.739Z"
     },
     {
       "id": 5,
@@ -147,9 +147,9 @@
         }
       ],
       "orderTotal": 59,
-      "status": "delivered",
+      "status": "ready",
       "dataEntry": "2023-06-14T19:26:39.739Z",
-      "dateProcessed": "2023-06-14T19:26:39.739Z"
+      "dateProcessed": "2023-06-14T19:31:39.739Z"
     },
     {
       "id": 6,
