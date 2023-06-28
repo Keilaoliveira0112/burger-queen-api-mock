@@ -386,20 +386,23 @@
   ],
   "users": [
     {
-      "email": "anita.borg@systers.xyz",
+      "email": "admin@teste.com",
       "password": "$2a$10$gVkmcWdnwEBxXj2PWjuv9uDx7BfjiAobbabDAOrH2o8b1i3E7KwR.",
+      "name": "Esther",
       "role": "admin",
       "id": 1
     },
     {
       "email": "grace.hopper@systers.xyz",
       "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
+      "name": "Grace",
       "role": "admin",
       "id": 2
     },
     {
       "email": "nara.sakamoto@laboratoria.la",
       "password": "$2a$10$VkvaBkhnm4k3KP/yCdhCgu/qtzxe7F00CVkTsAsr5pbfU8rPVZEQW",
+      "name": "Nara",
       "role": "admin",
       "id": 3
     },
