@@ -28,15 +28,15 @@ const rules = auth.rewriter(JSON.parse(fs.readFileSync(path.join(__dirname, '../
 app.db = router.db
 
 // You must apply the auth middleware before the router
-app.use(middlewares);
-app.use(rules);
-app.use(auth);
-app.use(router);
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*')
   res.header('Access-Control-Allow-Headers', '*')
   next()
 })
+app.use(middlewares);
+app.use(rules);
+app.use(auth);
+app.use(router);
 app.listen(port, () => {
     console.log(`JSON Server is running in ${port}`);
 });
