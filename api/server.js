@@ -7,9 +7,18 @@ const middlewares = jsonServer.defaults()
 const app = jsonServer.create();
 
 const data = fs.readFileSync(path.resolve(__dirname, '../db.json'), 'utf8');
-fs.writeFileSync('/tmp/db.json', data);
 
-const router = jsonServer.router('/tmp/db.json');
+let dbFilePath;
+if (process.env.VERCEL){
+    dbFilePath = '/tmp/db.json';
+} else {
+    dbFilePath = path.resolve(__dirname, '../db.json');
+}
+console.log(path.resolve(__dirname, dbFilePath))
+
+fs.writeFileSync(dbFilePath, data);
+
+const router = jsonServer.router(dbFilePath);
 
 const port = process.env.PORT || 8080;
 
@@ -23,7 +32,7 @@ app.use(middlewares);
 app.use(rules);
 app.use(auth);
 app.use(router);
-appr.use((req, res, next) => {
+app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*')
   res.header('Access-Control-Allow-Headers', '*')
   next()
